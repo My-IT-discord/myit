@@ -1,0 +1,35 @@
+.content {
+  .main {
+    display: grid;
+    justify-content: end;
+    justify-items: center;
+    align-items: center;
+    width: 90%;
+    height: 450px;
+    .name {
+      color: #c9f;
+      text-shadow: 1px 1px 1px black;
+      font-size: 40pt;
+      text-align: center;
+    }
+    .buttons {
+      a[href] {
+        width: 70%;
+        padding: 10px;
+        margin: 0 20px;
+        text-align: center;
+        background-color: #272928;
+        border-radius: 5px;
+        &:hover {
+          animation: hover_a 0.5s ease-in-out both;
+          @keyframes hover_a {
+            to {
+              color: #fff;
+              background-color: #aa88ff;
+            }
+          }
+        }
+      }
+    }
+  }
+}
