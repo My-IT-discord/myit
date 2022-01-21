@@ -103,7 +103,9 @@ body > .content {
             margin: 0 2px;
             padding: 0 5px;
             background-color: #000;
+            user-select: none;
             &.show {
+              user-select: text;
               background-color: #ffffff1a;
               color: white;
             }
