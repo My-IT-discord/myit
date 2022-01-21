@@ -12,9 +12,9 @@ addEventListener("load", () => {
         v.mention_roles?.forEach(
           (mention) => (mention_roles[mention.id] = mention)
         );
-        v.mention_channels?.forEach((mention) => {
-          mention_channels[mention.id] = mention;
-        });
+        v.mention_channels?.forEach(
+          (mention) => (mention_channels[mention.id] = mention)
+        );
         v.content = v.content
           ?.replaceAll(/\\?<(@|@!|@&)[0-9]+>/gm, (src, index) => {
             if (index !== 0 && src[0] === "\\") return src.substring(1);

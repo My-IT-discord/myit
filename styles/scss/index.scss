@@ -101,6 +101,7 @@ header {
   width: 100%;
   height: var(--heder-margin-top, 50px);
   background-color: #343a40;
+  transition: 0.8s;
   .content {
     width: 80%;
     .goHome {
@@ -163,7 +164,7 @@ header {
     transition: 0.8s;
   }
   &.down {
-    transition: 0.8s;
+    transition: 1s;
     top: -20% !important;
   }
 }
