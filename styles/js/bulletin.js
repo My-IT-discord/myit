@@ -1,6 +1,6 @@
 addEventListener("load", () => {
   let bulletinEl = document.getElementsByClassName("bulletin")[0];
-  fetch("/data/bulletin.json")
+  fetch("data/bulletin.json")
     .then((data) => data.json())
     .then((json) => {
       json.forEach((v) => {
