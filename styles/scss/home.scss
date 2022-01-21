@@ -1,4 +1,5 @@
 .content {
+  width: 100%;
   .main {
     display: grid;
     justify-content: end;
@@ -51,6 +52,7 @@
         display: flex;
         flex-direction: column;
         .info {
+          position: relative;
           display: flex;
           align-items: center;
           font-weight: 500;
@@ -58,7 +60,7 @@
             margin-right: 10px;
             img {
               position: absolute;
-              left: 16px;
+              left: -56px;
               width: 40px;
               height: 40px;
             }
