@@ -46,8 +46,8 @@ const limit = 5;
     return msg;
   });
   if (
-    bulletin[0].timestamp === newData[0].timestamp &&
-    bulletin[0].edited_timestamp === newData[0].edited_timestamp
+    bulletin?.[0]?.timestamp === newData?.[0]?.timestamp &&
+    bulletin?.[0]?.edited_timestamp === newData?.[0]?.edited_timestamp
   )
     return;
   fs.writeFile("data/bulletin.json", JSON.stringify(newData), (e) =>
