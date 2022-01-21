@@ -22,7 +22,7 @@
         background-color: #272928;
         border-radius: 5px;
         &:hover {
-          animation: hover_a 0.5s ease-in-out both;
+          animation: hover_a 0.2s ease-in-out both;
           @keyframes hover_a {
             to {
               color: #fff;
@@ -44,6 +44,7 @@
       color: white;
       > h1 {
         text-align: center;
+        font-size: 2.5rem;
       }
       .msg {
         margin: 20px 0;

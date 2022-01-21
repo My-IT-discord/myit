@@ -67,7 +67,8 @@ img {
 /* ---------- */
 /* load */
 .loading {
-  animation: loading 3s both;
+  animation: loading 1s both;
+  animation-delay: 1s;
   background-size: 110px;
   position: fixed;
   left: 0px;
@@ -77,13 +78,11 @@ img {
   background-position: center;
   background-repeat: no-repeat;
   z-index: 9999999;
+  background-color: #000;
+  background-image: url(../img/loading.gif);
+  opacity: 1;
 
   @keyframes loading {
-    from {
-      background-color: #000;
-      background-image: url(../img/loading.gif);
-      opacity: 1;
-    }
     to {
       opacity: 0;
       z-index: -1;
@@ -105,10 +104,59 @@ header {
   .content {
     width: 80%;
     .goHome {
+      width: max-content;
+      font-size: 1.25rem;
       img {
         margin-right: 10px;
       }
-      font-size: 1.25rem;
+    }
+  }
+  .menu {
+    .menuButton {
+      cursor: pointer;
+      width: 30px;
+      height: 16px;
+      display: flex;
+      padding: 10px;
+      border-radius: 3px;
+      border: 1px solid #ffffff1a;
+      .style {
+        position: relative;
+        margin: 7px 0;
+        &,
+        &:after,
+        &:before {
+          transition-duration: 0.4s;
+          background-color: #fff;
+          width: 30px;
+          height: 2px;
+        }
+        &:after,
+        &:before {
+          position: absolute;
+          content: "";
+        }
+        &:after {
+          top: -7px;
+        }
+        &:before {
+          top: 7px;
+        }
+        &.open {
+          height: 0 !important;
+          &:after {
+            top: 0;
+            transform: translateX(0) rotate(-45deg);
+          }
+          &:before {
+            top: 0;
+            transform: translateX(0) rotate(45deg);
+          }
+        }
+      }
+      &:hover {
+        opacity: 0.8;
+      }
     }
   }
   &.up {
@@ -124,5 +172,5 @@ footer {
   color: #cc99ff;
   font-size: 15pt;
   user-select: none;
-  text-shadow: #000000 0.1em 0.1em 0.2em;
+  text-shadow: #000 0.1em 0.1em 0.2em;
 }

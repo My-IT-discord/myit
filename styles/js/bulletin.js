@@ -25,7 +25,7 @@ addEventListener("load", () => {
           })
           ?.replaceAll(
             /(https?:\/\/(www\.)?[a-z0-9]+([\-\.][a-z0-9]+)*\.[a-z]{2,5}(:[0-9]{1,5})?(\/.*)?|discord\.gg\/[a-zA-Z0-9]*)/gm,
-            (src) => `<a href="${src}">${src}</a>`
+            (src) => `<a href="https://${src}">${src}</a>`
           )
           ?.replaceAll(/\\?<(#)[0-9]+>/gm, (src, index) => {
             if (index !== 0 && src[0] === "\\") return src.substring(1);
