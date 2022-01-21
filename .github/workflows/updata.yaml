@@ -25,7 +25,21 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
           cache: "npm"
-      - run: npm i
-      - run: npm run updata
+      - name: install packages
+        run: npm i
+      - name: get messages
+        run: npm run updata
         env:
-          TOKEN: ${{ secrets.TOKEN }}
+          TOKEN: ${{ secrets.DISCORD_TOKEN }}
+
+      - name: "提交檔案"
+        run: |
+          git config --global user.email "a102009102009@gmail.com.com"
+          git config --global user.name "資料庫更新機器人"
+          git add ./data
+          git commit -m "更新資料"
+      - name: "推送變更"
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}
