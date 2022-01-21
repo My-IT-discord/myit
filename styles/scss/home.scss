@@ -8,7 +8,7 @@ body > .content {
     justify-content: end;
     justify-items: center;
     align-items: center;
-    width: 90%;
+    width: 70%;
     height: 450px;
     .name {
       color: #c9f;
@@ -43,6 +43,7 @@ body > .content {
     align-items: center;
 
     .bulletin {
+      min-width: 90%;
       padding: 3em 0;
       color: white;
       > h1 {
