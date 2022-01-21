@@ -24,7 +24,27 @@
                 }
             }
         ],
-        "timestamp": "2022-01-20T07:36:21.629000+00:00"
+        "mentions": [],
+        "mention_roles": [],
+        "pinned": false,
+        "mention_everyone": false,
+        "tts": false,
+        "timestamp": "2022-01-20T07:36:21.629000+00:00",
+        "edited_timestamp": null,
+        "flags": 1,
+        "components": [],
+        "reactions": [
+            {
+                "emoji": {
+                    "id": "916969490850381875",
+                    "name": "dalao_2",
+                    "animated": true
+                },
+                "count": 2,
+                "me": false
+            }
+        ],
+        "mention_channels": []
     },
     {
         "id": "932467177590771712",
@@ -38,8 +58,71 @@
             "discriminator": "8377",
             "public_flags": 258
         },
+        "attachments": [],
         "embeds": [],
-        "timestamp": "2022-01-17T02:51:39.540000+00:00"
+        "mentions": [],
+        "mention_roles": [
+            {
+                "id": "887690135037153321",
+                "name": "\ud83d\udce2|\u516c\u544a\u901a\u77e5",
+                "permissions": "6546640449",
+                "position": 92,
+                "color": 1142102,
+                "hoist": false,
+                "managed": false,
+                "mentionable": false,
+                "icon": null,
+                "unicode_emoji": null
+            }
+        ],
+        "pinned": false,
+        "mention_everyone": false,
+        "tts": false,
+        "timestamp": "2022-01-17T02:51:39.540000+00:00",
+        "edited_timestamp": null,
+        "flags": 1,
+        "components": [],
+        "reactions": [
+            {
+                "emoji": {
+                    "id": null,
+                    "name": "\ud83d\uded0"
+                },
+                "count": 9,
+                "me": false
+            },
+            {
+                "emoji": {
+                    "id": "931869160894496808",
+                    "name": "kekwait",
+                    "animated": true
+                },
+                "count": 6,
+                "me": false
+            }
+        ],
+        "mention_channels": [
+            {
+                "id": "932223212283125790",
+                "last_message_id": "933386358775513146",
+                "type": 0,
+                "name": "\ud83d\udd3b\u25b8\u7a0b\u5f0f\u8a0e\u8ad6\u5340\u61f6\u4eba\u5305",
+                "position": 10,
+                "parent_id": "887690146722480198",
+                "topic": null,
+                "guild_id": "808945802100736050",
+                "permission_overwrites": [
+                    {
+                        "id": "808945802100736050",
+                        "type": 0,
+                        "allow": "1024",
+                        "deny": "2048"
+                    }
+                ],
+                "nsfw": false,
+                "rate_limit_per_user": 0
+            }
+        ]
     },
     {
         "id": "931460179336257558",
@@ -53,8 +136,28 @@
             "discriminator": "0204",
             "public_flags": 256
         },
+        "attachments": [],
         "embeds": [],
-        "timestamp": "2022-01-14T08:10:12.447000+00:00"
+        "mentions": [],
+        "mention_roles": [],
+        "pinned": false,
+        "mention_everyone": false,
+        "tts": false,
+        "timestamp": "2022-01-14T08:10:12.447000+00:00",
+        "edited_timestamp": null,
+        "flags": 1,
+        "components": [],
+        "reactions": [
+            {
+                "emoji": {
+                    "id": "858172267854954506",
+                    "name": "emoji_37"
+                },
+                "count": 19,
+                "me": false
+            }
+        ],
+        "mention_channels": []
     },
     {
         "id": "931384963750842439",
@@ -68,8 +171,58 @@
             "discriminator": "8377",
             "public_flags": 258
         },
+        "attachments": [],
         "embeds": [],
-        "timestamp": "2022-01-14T03:11:19.654000+00:00"
+        "mentions": [],
+        "mention_roles": [
+            {
+                "id": "887690135037153321",
+                "name": "\ud83d\udce2|\u516c\u544a\u901a\u77e5",
+                "permissions": "6546640449",
+                "position": 92,
+                "color": 1142102,
+                "hoist": false,
+                "managed": false,
+                "mentionable": false,
+                "icon": null,
+                "unicode_emoji": null
+            }
+        ],
+        "pinned": false,
+        "mention_everyone": false,
+        "tts": false,
+        "timestamp": "2022-01-14T03:11:19.654000+00:00",
+        "edited_timestamp": "2022-01-14T07:02:15.993000+00:00",
+        "flags": 1,
+        "components": [],
+        "reactions": [
+            {
+                "emoji": {
+                    "id": null,
+                    "name": "\ud83c\udf89"
+                },
+                "count": 25,
+                "me": false
+            },
+            {
+                "emoji": {
+                    "id": null,
+                    "name": "\ud83d\udc4d"
+                },
+                "count": 12,
+                "me": false
+            },
+            {
+                "emoji": {
+                    "id": "858185426442911754",
+                    "name": "dalao",
+                    "animated": true
+                },
+                "count": 11,
+                "me": false
+            }
+        ],
+        "mention_channels": []
     },
     {
         "id": "927485336521683005",
@@ -83,6 +236,139 @@
             "discriminator": "2459",
             "public_flags": 64
         },
-        "timestamp": "2022-01-03T08:55:36.071000+00:00"
+        "attachments": [],
+        "embeds": [],
+        "mentions": [],
+        "mention_roles": [
+            {
+                "id": "887690135037153321",
+                "name": "\ud83d\udce2|\u516c\u544a\u901a\u77e5",
+                "permissions": "6546640449",
+                "position": 92,
+                "color": 1142102,
+                "hoist": false,
+                "managed": false,
+                "mentionable": false,
+                "icon": null,
+                "unicode_emoji": null
+            }
+        ],
+        "pinned": false,
+        "mention_everyone": false,
+        "tts": false,
+        "timestamp": "2022-01-03T08:55:36.071000+00:00",
+        "edited_timestamp": null,
+        "flags": 1,
+        "components": [],
+        "reactions": [
+            {
+                "emoji": {
+                    "id": "858274265006211102",
+                    "name": "pepeok"
+                },
+                "count": 14,
+                "me": false
+            },
+            {
+                "emoji": {
+                    "id": "858175890306498600",
+                    "name": "emoji_56"
+                },
+                "count": 8,
+                "me": false
+            }
+        ],
+        "mention_channels": [
+            {
+                "id": "887690184429305936",
+                "last_message_id": "932225724302114847",
+                "last_pin_timestamp": "2021-10-15T00:57:20+00:00",
+                "type": 0,
+                "name": "\ud83d\udce6\u25b8\u6897\u5716\u6536\u96c6\u7bb1",
+                "position": 18,
+                "parent_id": "887690147561357322",
+                "topic": null,
+                "guild_id": "808945802100736050",
+                "permission_overwrites": [
+                    {
+                        "id": "887690129655861340",
+                        "type": 0,
+                        "allow": "3072",
+                        "deny": "0"
+                    },
+                    {
+                        "id": "808945802100736050",
+                        "type": 0,
+                        "allow": "0",
+                        "deny": "131072"
+                    },
+                    {
+                        "id": "887690115407831160",
+                        "type": 0,
+                        "allow": "0",
+                        "deny": "3072"
+                    },
+                    {
+                        "id": "923797757163094036",
+                        "type": 0,
+                        "allow": "0",
+                        "deny": "2048"
+                    },
+                    {
+                        "id": "889075970970120232",
+                        "type": 0,
+                        "allow": "0",
+                        "deny": "377959221312"
+                    }
+                ],
+                "nsfw": false,
+                "rate_limit_per_user": 10
+            },
+            {
+                "id": "887690184429305936",
+                "last_message_id": "932225724302114847",
+                "last_pin_timestamp": "2021-10-15T00:57:20+00:00",
+                "type": 0,
+                "name": "\ud83d\udce6\u25b8\u6897\u5716\u6536\u96c6\u7bb1",
+                "position": 18,
+                "parent_id": "887690147561357322",
+                "topic": null,
+                "guild_id": "808945802100736050",
+                "permission_overwrites": [
+                    {
+                        "id": "887690129655861340",
+                        "type": 0,
+                        "allow": "3072",
+                        "deny": "0"
+                    },
+                    {
+                        "id": "808945802100736050",
+                        "type": 0,
+                        "allow": "0",
+                        "deny": "131072"
+                    },
+                    {
+                        "id": "887690115407831160",
+                        "type": 0,
+                        "allow": "0",
+                        "deny": "3072"
+                    },
+                    {
+                        "id": "923797757163094036",
+                        "type": 0,
+                        "allow": "0",
+                        "deny": "2048"
+                    },
+                    {
+                        "id": "889075970970120232",
+                        "type": 0,
+                        "allow": "0",
+                        "deny": "377959221312"
+                    }
+                ],
+                "nsfw": false,
+                "rate_limit_per_user": 10
+            }
+        ]
     }
 ]
