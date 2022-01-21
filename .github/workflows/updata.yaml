@@ -36,7 +36,7 @@ jobs:
         run: |
           git config --global user.email "a102009102009@gmail.com.com"
           git config --global user.name "a3510377"
-          git add ./data
+          git add .
           git commit -m "更新資料"
       - name: "推送變更"
         uses: ad-m/github-push-action@master
