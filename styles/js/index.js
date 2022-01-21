@@ -1,6 +1,7 @@
 const random = (min, max) => Math.floor(Math.random() * max) + min;
 
 addEventListener("load", () => {
+  /* header */
   let oldScroll = -1;
   addEventListener("scroll", () => {
     let scrollTop = window.scrollY || 0,
@@ -24,4 +25,13 @@ addEventListener("load", () => {
     }
     oldScroll = scrollTop;
   });
+  /* menu */
+  document
+    .querySelector(".menu .menuButton")
+    .addEventListener("click", (el) => {
+      el.target.closest(".menu").classList.toggle("open");
+      document.body.classList.toggle("block");
+    });
+  /* TODO */
+  addEventListener("resize", () => {});
 });

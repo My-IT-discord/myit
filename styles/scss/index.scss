@@ -13,14 +13,14 @@ html,
 body {
   margin: 0;
   padding: 0;
-  height: calc(100vh - var(--heder-margin-top, 50px));
+  height: calc(100vh - var(--header-margin-top, 50px));
 }
 body {
   font-family: Whitney, "Microsoft JhengHei", 微軟正黑體,
     "Microsoft JhengHei UI", "Microsoft YaHei", 微軟雅黑, 宋体, SimSun,
     "Helvetica Neue", Helvetica, Arial, sans-serif;
   background-image: url(../img/codeImg.jpeg);
-  margin-top: var(--heder-margin-top, 50px);
+  margin-top: var(--header-margin-top, 50px);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -99,64 +99,98 @@ header {
   top: 0;
   left: 0;
   width: 100%;
-  height: var(--heder-margin-top, 50px);
+  height: var(--header-margin-top, 50px);
   background-color: #343a40;
   transition: 0.8s;
   .content {
     width: 80%;
+    display: flex;
+    align-items: center;
     .goHome {
-      width: max-content;
+      white-space: nowrap;
       font-size: 1.25rem;
+      margin-right: 10px;
       img {
         margin-right: 10px;
       }
     }
-  }
-  .menu {
-    .menuButton {
-      cursor: pointer;
-      width: 30px;
-      height: 16px;
-      display: flex;
-      padding: 10px;
-      border-radius: 3px;
-      border: 1px solid #ffffff1a;
-      .style {
-        position: relative;
-        margin: 7px 0;
-        &,
-        &:after,
-        &:before {
-          transition-duration: 0.4s;
-          background-color: #fff;
-          width: 30px;
-          height: 2px;
+    .menu {
+      width: 100%;
+      .menuButton {
+        display: none;
+        cursor: pointer;
+        width: 30px;
+        height: 16px;
+        padding: 10px;
+        border-radius: 3px;
+        border: 1px solid #ffffff1a;
+        .style {
+          position: relative;
+          margin: 7px 0;
+          &,
+          &:after,
+          &:before {
+            transition-duration: 0.4s;
+            background-color: #fff;
+            width: 30px;
+            height: 2px;
+          }
+          &:after,
+          &:before {
+            position: absolute;
+            content: "";
+          }
+          &:after {
+            top: -7px;
+          }
+          &:before {
+            top: 7px;
+          }
         }
-        &:after,
-        &:before {
-          position: absolute;
-          content: "";
+        &:hover {
+          opacity: 0.8;
         }
-        &:after {
-          top: -7px;
+      }
+      .content {
+        > * {
+          font-weight: 900;
+          color: #7fd4d7;
+          display: flex;
+          padding: 10px;
+          border-radius: 3px;
         }
-        &:before {
-          top: 7px;
-        }
-        &.open {
+      }
+      &.open {
+        .menuButton .style {
           height: 0 !important;
           &:after {
             top: 0;
-            transform: translateX(0) rotate(-45deg);
+            transform: rotate(-45deg);
           }
           &:before {
             top: 0;
-            transform: translateX(0) rotate(45deg);
+            transform: rotate(45deg);
           }
         }
-      }
-      &:hover {
-        opacity: 0.8;
+        .content {
+          display: flex;
+          z-index: 99999999;
+          position: fixed;
+          top: var(--header-margin-top, 0);
+          bottom: 0;
+          right: 0;
+          width: 80%;
+          flex-direction: column;
+          background-color: #050505e1;
+          justify-content: center;
+          align-items: baseline;
+          flex-direction: row;
+          font-size: 16pt;
+          > * {
+            width: 100%;
+            padding: 1em 0;
+          }
+        }
       }
     }
   }
@@ -167,6 +201,20 @@ header {
     transition: 1s;
     top: -20% !important;
   }
+  @media all and (max-width: 800px) {
+    .content {
+      justify-content: space-between;
+    }
+    .menu {
+      width: auto !important;
+      .content {
+        display: none;
+      }
+      .menuButton {
+        display: flex !important;
+      }
+    }
+  }
 }
 /* footer */
 footer {
@@ -174,4 +222,17 @@ footer {
   font-size: 15pt;
   user-select: none;
   text-shadow: #000 0.1em 0.1em 0.2em;
+  max-width: 90%;
+  text-align: center;
+}
+/* air */
+body.block .air {
+  background-color: #000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 99999;
+  opacity: 0.5;
 }
