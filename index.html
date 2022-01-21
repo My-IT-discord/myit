@@ -7,17 +7,17 @@
     (function (w, d, s, l, i) {
       w[l] = w[l] || [];
       w[l].push({
-        'gtm.start': new Date().getTime(),
-        event: 'gtm.js'
+        "gtm.start": new Date().getTime(),
+        event: "gtm.js"
       });
       var f = d.getElementsByTagName(s)[0],
         j = d.createElement(s),
-        dl = l != 'dataLayer' ? '&l=' + l : '';
+        dl = l != "dataLayer" ? "&l=" + l : "";
       j.async = true;
       j.src =
-        'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+        "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
       f.parentNode.insertBefore(j, f);
-    })(window, document, 'script', 'dataLayer', 'GTM-P7667RB');
+    })(window, document, "script", "dataLayer", "GTM-P7667RB");
   </script>
   <!-- End Google Tag Manager -->
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -54,10 +54,12 @@
   </noscript>
   <div class="loading"></div>
   <header>
-    <a class="flex flex-item-center" href="/">
-      <img
-        src="https://images-ext-1.discordapp.net/external/nAdT5JeM7RDkSOP7e1MN8LmV8VFdWCw8XEtRg9t11Ng/%3Fsize%3D512/https/cdn.discordapp.com/icons/808945802100736050/8caaedfd0d261807de01a0d013dc0c81.webp"
-        alt="回到主頁" width="50" height="50">{My-IT}程式討論區</a>
+    <div class="content">
+      <a class="goHome flex flex-item-center" href="/">
+        <img class="radius"
+          src="https://images-ext-1.discordapp.net/external/nAdT5JeM7RDkSOP7e1MN8LmV8VFdWCw8XEtRg9t11Ng/%3Fsize%3D512/https/cdn.discordapp.com/icons/808945802100736050/8caaedfd0d261807de01a0d013dc0c81.webp"
+          alt="回到主頁" width="50" height="50">{My-IT}程式討論區</a>
+    </div>
   </header>
   <div class="content">
     <section class="main">
@@ -69,6 +71,11 @@
         </div>
       </div>
     </section>
+    <section class="features">
+      <div class="bulletin">
+        <h1>群組公告</h1>
+      </div>
+    </section>
   </div>
   <footer>
     <h3>
@@ -77,15 +84,26 @@
   </footer>
   <script type="text/javascript">
     (function () {
-      window['__CF$cv$params'] = {
-        r: '6bbae6f8c8d16e2d',
-        m: 'W8rYdECUAecIwjGoy2Rwegi4mzk1JSGHRAR9zZUzdeE-1639185750-0-AbG5fmXmredv+fQcGMnGPOJ9/oSxtJFGNYbdEwzX/WPS3dLqHVWTKV8J1CVPhL5fYbdh2laL3VJq8nkvYNp2AjJEP48G/p8JeHAbPl93XKBhi3XB+xd12j3z4NkHIOD5ag==',
+      window["__CF$cv$params"] = {
+        r: "6bbae6f8c8d16e2d",
+        m: "W8rYdECUAecIwjGoy2Rwegi4mzk1JSGHRAR9zZUzdeE-1639185750-0-AbG5fmXmredv+fQcGMnGPOJ9/oSxtJFGNYbdEwzX/WPS3dLqHVWTKV8J1CVPhL5fYbdh2laL3VJq8nkvYNp2AjJEP48G/p8JeHAbPl93XKBhi3XB+xd12j3z4NkHIOD5ag==",
         s: [0xa60f617173, 0x4bb584cc56],
-        u: '/cdn-cgi/challenge-platform/h/b'
+        u: "/cdn-cgi/challenge-platform/h/b"
       }
     })();
   </script>
+  <script src="https://cdn.jsdelivr.net/npm/@widgetbot/crate@3" async defer>
+    new Crate({
+      server: "808945802100736050",
+      channel: "887690164657340466",
+      glyph: [
+        "https://images-ext-1.discordapp.net/external/nAdT5JeM7RDkSOP7e1MN8LmV8VFdWCw8XEtRg9t11Ng/%3Fsize%3D512/https/cdn.discordapp.com/icons/808945802100736050/8caaedfd0d261807de01a0d013dc0c81.webp?size=256",
+        "100%"
+      ]
+    })
+  </script>
   <script src="styles/js/index.js"></script>
+  <script src="styles/js/bulletin.js"></script>
 </body>
 
 </html>

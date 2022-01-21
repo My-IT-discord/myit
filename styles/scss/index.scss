@@ -16,6 +16,9 @@ body {
   height: calc(100vh - var(--heder-margin-top, 50px));
 }
 body {
+  font-family: Whitney, "Microsoft JhengHei", 微軟正黑體,
+    "Microsoft JhengHei UI", "Microsoft YaHei", 微軟雅黑, 宋体, SimSun,
+    "Helvetica Neue", Helvetica, Arial, sans-serif;
   background-image: url(../img/codeImg.jpeg);
   margin-top: var(--heder-margin-top, 50px);
   display: flex;
@@ -23,8 +26,6 @@ body {
   align-items: center;
   > .content {
     flex-grow: 1;
-    width: 100%;
-    height: 100%;
   }
 }
 /*  */
@@ -35,6 +36,12 @@ a {
   &:hover {
     color: #0056b3;
     text-decoration: underline;
+  }
+}
+/*  */
+img {
+  &.radius {
+    border-radius: 50%;
   }
 }
 
@@ -60,7 +67,7 @@ a {
 /* ---------- */
 /* load */
 .loading {
-  animation: loading 1s both;
+  animation: loading 3s both;
   background-size: 110px;
   position: fixed;
   left: 0px;
@@ -69,7 +76,7 @@ a {
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
-  z-index: 9999;
+  z-index: 9999999;
 
   @keyframes loading {
     from {
@@ -85,6 +92,9 @@ a {
 }
 /* header */
 header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   position: fixed;
   z-index: 999999;
   top: 0;
@@ -92,6 +102,15 @@ header {
   width: 100%;
   height: var(--heder-margin-top, 50px);
   background-color: #343a40;
+  .content {
+    width: 80%;
+    .goHome {
+      img {
+        margin-right: 10px;
+      }
+      font-size: 1.25rem;
+    }
+  }
   &.up {
     transition: 0.8s;
   }

@@ -32,4 +32,54 @@
       }
     }
   }
+  .features {
+    background-color: #343a40;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .bulletin {
+      padding: 3em 0;
+      color: white;
+      > h1 {
+        text-align: center;
+      }
+      .msg {
+        margin: 20px 0;
+        padding-left: 72px;
+        padding-right: 48px;
+        display: flex;
+        flex-direction: column;
+        .info {
+          display: flex;
+          align-items: center;
+          font-weight: 500;
+          .author {
+            margin-right: 10px;
+            img {
+              position: absolute;
+              left: 16px;
+              width: 40px;
+              height: 40px;
+            }
+            p {
+              color: #3498db;
+              margin: 0;
+            }
+          }
+          .timestamp {
+            color: #aeb3bb;
+            font-size: 0.75rem;
+            text-align: end;
+            cursor: default;
+          }
+        }
+        .content {
+          user-select: text;
+          line-height: 1.375rem;
+          font-weight: 400;
+        }
+      }
+    }
+  }
 }
