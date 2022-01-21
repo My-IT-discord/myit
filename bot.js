@@ -5,8 +5,8 @@ import { config } from "dotenv";
 config({ path: ".env.local" });
 const Token = process.env.TOKEN;
 
-const guild_id = "808945802100736050";
-const channel_id = "887690155027222598";
+const guild_id = 808945802100736050n;
+const channel_id = 887690155027222598n;
 const BASE_URL = "https://discord.com/api/v9";
 const limit = 5;
 
