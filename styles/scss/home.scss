@@ -1,0 +1,101 @@
+body > .content {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  .main {
+    display: grid;
+    justify-content: end;
+    justify-items: center;
+    align-items: center;
+    width: 90%;
+    height: 450px;
+    .name {
+      color: #c9f;
+      text-shadow: 1px 1px 1px black;
+      font-size: 40pt;
+      text-align: center;
+    }
+    .buttons {
+      a[href] {
+        width: 70%;
+        padding: 10px;
+        margin: 0 20px;
+        text-align: center;
+        background-color: #272928;
+        border-radius: 5px;
+        &:hover {
+          animation: hover_a 0.2s ease-in-out both;
+          @keyframes hover_a {
+            to {
+              color: #fff;
+              background-color: #aa88ff;
+            }
+          }
+        }
+      }
+    }
+  }
+  .features {
+    background-color: #343a40;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .bulletin {
+      padding: 3em 0;
+      color: white;
+      > h1 {
+        text-align: center;
+        font-size: 2.5rem;
+      }
+      .msg {
+        margin: 20px 0;
+        padding-left: 72px;
+        padding-right: 48px;
+        display: flex;
+        flex-direction: column;
+        .info {
+          position: relative;
+          display: flex;
+          align-items: center;
+          font-weight: 500;
+          .author {
+            margin-right: 10px;
+            img {
+              position: absolute;
+              left: -56px;
+              width: 40px;
+              height: 40px;
+            }
+            p {
+              color: #3498db;
+              margin: 0;
+            }
+          }
+          .timestamp {
+            color: #aeb3bb;
+            font-size: 0.75rem;
+            text-align: end;
+            cursor: default;
+          }
+        }
+        .content {
+          user-select: text;
+          line-height: 1.375rem;
+          font-weight: 400;
+          .mention {
+            color: #ededed;
+            background-color: #a4a4a632;
+            padding: 0 5px;
+            margin: 0 2px;
+            border-radius: 2px;
+            &:hover {
+              background-color: var(--have-color, #a4a4a64d) !important;
+            }
+          }
+        }
+      }
+    }
+  }
+}
