@@ -10,4 +10,4 @@ ex: https://github.com/a3510377/myit/settings/secrets/actions
 1. `TOKEN`: Github Token
 2. `DISCORD_TOKEN`: Discord Token
 
-本儲存庫使用 `Github Actions` `每小時` 或 `手動` 更新
+本儲存庫使用 `Github Actions` 進行更新，預設於 `每小時` 或 `手動` 更新
