@@ -4,7 +4,7 @@ a blog website for my discord group : https://discord.gg/myit
 https://hello1234316.github.io/myit/
 
 ![](.github\style\img\config.png)
-請添加兩個 參數 [點我](\settings\secrets\actions)
+請添加兩個 參數 [點我](...\settings\secrets\actions)
 
 1. `TOKEN`: Github Token
 2. `DISCORD_TOKEN`: Discord Token
