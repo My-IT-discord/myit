@@ -3,7 +3,7 @@
 a blog website for my discord group : https://discord.gg/myit <br />
 https://hello1234316.github.io/myit/
 
-![](.github\style\img\config.png)
+![](.github/style/img/config.png)
 請添加兩個 參數 /settings/secrets/actions <br />
 ex: https://github.com/a3510377/myit/settings/secrets/actions
 
@@ -11,3 +11,4 @@ ex: https://github.com/a3510377/myit/settings/secrets/actions
 2. `DISCORD_TOKEN`: Discord Token
 
 本儲存庫使用 `Github Actions` 進行更新，預設於 `每小時` 或 `手動` 更新
+![](.github/style/img/sop.png)
