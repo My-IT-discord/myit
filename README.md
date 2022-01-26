@@ -1,10 +1,10 @@
 # myit
 
-a blog website for my discord group : https://discord.gg/myit
+a blog website for my discord group : https://discord.gg/myit <br />
 https://hello1234316.github.io/myit/
 
 ![](.github\style\img\config.png)
-請添加兩個 參數 /settings/secrets/actions
+請添加兩個 參數 /settings/secrets/actions <br />
 ex: https://github.com/a3510377/myit/settings/secrets/actions
 
 1. `TOKEN`: Github Token
