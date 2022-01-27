@@ -1,0 +1,25 @@
+{
+  "name": "myit",
+  "version": "1.0.0",
+  "description": "a blog website for my discord group : https://discord.gg/myit\r https://hello1234316.github.io/myit/",
+  "main": "bot.js",
+  "type": "module",
+  "scripts": {
+    "updata": "node bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a3510377/myit.git"
+  },
+  "keywords": [],
+  "author": "a3510377 <a102009102009@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/a3510377/myit/issues"
+  },
+  "homepage": "https://github.com/a3510377/myit#readme",
+  "dependencies": {
+    "axios": "^0.25.0",
+    "dotenv": "^14.2.0"
+  }
+}
