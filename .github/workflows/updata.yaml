@@ -36,7 +36,6 @@ jobs:
         run: |
           if [ $(git status --porcelain | wc -l) -eq "0" ]; then
             echo "  🟢 Git repo is clean."
-            exit 1
           else
             echo "  🔴 Git repo dirty. Quit."
             git config --global user.email "a102009102009@gmail.com.com"
