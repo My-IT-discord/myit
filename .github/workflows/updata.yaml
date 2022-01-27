@@ -6,8 +6,8 @@ on:
   workflow_dispatch:
     inputs:
       name:
-        description: "Person to greet"
-        default: "World"
+        description: "現在執行資料更新"
+        default: "別理我"
         required: true
 
 jobs:
@@ -35,9 +35,9 @@ jobs:
       - name: "提交檔案"
         run: |
           if [ $(git status --porcelain | wc -l) -eq "0" ]; then
-            echo "  🟢 Git repo is clean."
+            echo "  🔴 無變化"
           else
-            echo "  🔴 Git repo dirty. Quit."
+            echo "  🟢 資料更新"
             git config --global user.email "a102009102009@gmail.com.com"
             git config --global user.name "a3510377"
             git add .
