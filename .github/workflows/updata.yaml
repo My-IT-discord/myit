@@ -36,13 +36,13 @@ jobs:
         run: |
           if [ $(git status --porcelain | wc -l) -eq "0" ]; then
             echo "  🟢 Git repo is clean."
+            exit 1
+          else
+            echo "  🔴 Git repo dirty. Quit."
             git config --global user.email "a102009102009@gmail.com.com"
             git config --global user.name "a3510377"
             git add .
             git commit -m "更新資料"
-          else
-            echo "  🔴 Git repo dirty. Quit."
-            exit 1
           fi
       - name: "推送變更"
         uses: ad-m/github-push-action@master
