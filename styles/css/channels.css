@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Island+Moments&display=swap');
+
+
+body {
+  background-image: url('space.gif'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-blend-mode: overlay;
+}
+
+.main-content {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 2rem;
+  justify-content: center;
+  padding-bottom: 6rem;
+}
+
+.main-content-image img{
+  max-width: 400px;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: auto;
+  margin-right: 0px;
+  transform: translatey(0px);
+	animation: float 6s ease-in-out infinite;
+}
+
+ .logo-image{
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: -6px;
+}
+
+@keyframes float {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-20px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
+}
+
+.main-content-children {
+  padding: 1rem;
+  width: 50%;
+  margin: auto;
+  min-width: 400px;
+  text-align: left;
+  font-family: 'Poppins';
+  vertical-align: center;
+}
+
+.main-content-children h1{
+  text-align: left;
+  font-family: 'Island Moments';
+  font-size: 60px;
+  margin: 0;
+}
+
+.main-content-children p{
+  text-align: left;
+  margin-top: 0px;
+}
+
+.main-content-buttons {
+  display: flex;
+  padding: 1rem 0rem;
+}
+
+.main-content-buttons li a{
+  display: block;
+  margin: 10px;
+  margin-right: 20px;
+  margin-left: 0px;
+  padding: 10px;
+  min-width: 100px;
+  text-align: center;
+  background-color: #272928;
+  border-radius: 5px;
+}
+
+.main-content-buttons li a:hover{
+  color: white;
+  background-color: #aa88ff;
+}
+
+.main-features {
+  margin: 0;
+  display: block;
+}
+
+.wave-border {
+  width: 100%;
+  height: 100px;
+  background-image: url('../images/wave.png');
+}
+
+.feature-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #272928;
+}
+
+.last-row{
+  padding-bottom: 150px;
+}
+
+.feature-column{
+  flex-grow: 1;
+  padding: 1rem;
+  width: 50%;
+  margin: 10px;
+  max-width: 400px;
+  vertical-align: center;
+}
+
+.feature-column h1{
+  font-family: 'Island Moments'
+}
+
+.feature-column p{
+  text-align: justify;
+}
+
+.feature-column-image img{
+  max-width: 400px;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: auto;
+  transition: transform .5s ease;
+}
+
+.feature-column-image img:hover{
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+
+.main-links {
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  justify-content: center;
+  padding-top: 6rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.link-container {
+  margin: 20px;
+  padding: 20px;
+  max-width: 500px;
+  border-radius: 10px;
+  background-color: #272928;
+  white-space: normal;
+  transition: transform 0.5s ease;
+}
+
+.link-empty-child {
+  width: 500px;
+  margin: 0px 20px;
+  padding: 0px 20px;
+  height: 0px;
+}
+
+.link-container:hover{
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+.link-container h1{
+  font-family: 'Island Moments';
+  margin-top: 0;
+  font-size: 20px;
+}
+
+.link-container p{
+  color: darkgrey;
+  font-size: 13px;
+}
+
+.link-button {
+  margin: auto;
+  padding: 8px;
+  background-color: #DDA0DD;
+  border-radius: 10px;
+  font-family: 'Poppins';
+  text-align: center;
+  font-size: 15px
+}
+
+.link-container a:hover{
+  color: white;
+}
+
+.link-button:hover{
+  background-color: #EE82EE;
+}
+
+@media (max-width: 810px){
+  .main-content-image {
+    height: auto;
+    margin: auto;
+  }
+  .main-content-children h1{
+    text-align: center;
+  }
+  .main-content-children p{
+    text-align: center;
+  }
+  .main-content-buttons li a{
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+}
