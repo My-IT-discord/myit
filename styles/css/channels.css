@@ -226,3 +226,114 @@ body {
   }
   
 }
+
+/* common media queries starts*/
+@media (max-width: 450px) {
+  html {
+    font-size: 55%;
+  }
+  body {
+    padding-right: 0;
+  }
+  section {
+    padding: 2rem;
+  }
+}
+/* common media queries ends*/
+
+/* scroll top starts */
+#scroll-top {
+  position: fixed;
+  top: -140%;
+  right: 2rem;
+  padding: 1rem 1.5rem;
+  font-size: 2rem;
+  background: #00ffe1;
+  color: rgb(13, 0, 44);
+  border-radius: 50%;
+  transition: 1s linear;
+  z-index: 1000;
+}
+#scroll-top.active {
+  top: calc(100% - 12rem);
+}
+/* scroll top ends */
+
+/* Cursoe Code starts */
+.cursor {
+  /* Position fixed as it allows the div to be fixed in screen while scrolling */
+  position: fixed;
+  z-index: 1500;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #ff7b00;
+  border-radius: 50%;
+  /* so cursor never changes */
+  pointer-events: none;
+  /* transition to create a lag */
+  transition-duration: 200ms;
+  transition-timing-function: ease-out;
+  animation: cursorAnimation1 0.5s infinite alternate;
+  transform: translate(-50%, -50%);
+}
+
+.cursor::after {
+  content: "";
+  border-top: 8px solid #00ffff;
+  border-left: 8px solid #00ffff;
+  border-right: 8px solid #00ffff;
+  border-bottom: 8px solid #00ffff;
+  opacity: 0.8;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  border-radius: 50%;
+  top: -9px;
+  left: -9px;
+  animation: cursorAnimation2 0.5s infinite alternate;
+}
+
+@keyframes cursorAnimation1 {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(0.7);
+  }
+}
+
+@keyframes cursorAnimation2 {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(0.4);
+  }
+}
+
+@keyframes cursorAnimation3 {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(3);
+  }
+  100% {
+    transform: scale(1);
+    opacity: 0;
+  }
+}
+
+.expand {
+  animation: cursorAnimation3 0.5s forwards;
+  border: 1px solid red;
+}
+
+#error_message{
+  margin-bottom: 20px;
+  background: #fe8b8e;
+  padding: 0px;
+  text-align: center;
+  font-size: 14px;
+  transition: all 0.5s ease;
+}
