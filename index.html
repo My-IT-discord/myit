@@ -55,7 +55,8 @@
       style="display:none;visibility:hidden"></iframe>
   </noscript>
   <div class="loading"></div>
-<div class="header">
+
+    <div class="header">
       <div id="leftt2">
         <div class="dropdown2">
         <button class="dropbtn2"><i class="fa fa-navicon"></i></button>
@@ -362,7 +363,163 @@ border-radius: 10px;
 margin: 15px;
 box-shadow: 0 4px 20px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
   }
-  
+  .card.feautres {
+height: 180px;
+width: 450px;
+padding: 10px;
+padding-top: 10px;
+border-radius: 5px;
+  }
+.card.stats2 {
+height: 130px;
+width: 300px;
+padding: 10px;
+padding-top: 10px;
+border-radius: 5px;
+  }
+  .card.popout {
+height: 230px;
+transition: all 0.5s;
+width: 700px;
+border-radius: 10px;
+animation: fadeIn 0.4s;
+visibility: visible;
+  -webkit-animation: fadeIn 0.5s;
+  animation: fadeIn 0.5s;
+  }
+  /* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;} 
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
+  .card.dashboard {
+height: 250px;
+width: 300px;
+  }
+.card.commands {
+height: 260px;
+border-radius: 0px;
+width: 250px;
+border-radius: 6px;
+animation: fadeIn 1s;
+height: 50px;
+transition: 0.4s;
+ }
+ .content{
+  display:none;
+  position: absolute;
+  background-color: #838383;
+  min-width: 160px;
+  transition: 0.4s;
+  border-radius: 5px;
+  width: 0px;
+  height: 200px;
+  animation: fadeIn 1s;
+  padding: 10px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+ }
+.card.commands:hover .content{
+display: block;
+width: 320px;
+height: 250px;
+animation: fadeIn 1s;
+transition: 0.4s;
+  }
+ .card.bug {
+height: 350px;
+width: 540px;
+animation: fadeIn 0.4s;
+ }
+ .card.stats {
+height: 365px;
+width: 620px;
+animation: fadeIn 0.4s;
+border-radius: 10px;
+padding: 15px;
+ }
+ .card.team {
+height: 400px;
+padding: 15px;
+width: 350px;
+animation: fadeIn 0.4s;
+border-radius: 5px;
+ }
+ .select {
+height: 35px;
+width: 800px;
+transition: all 0.5s;
+animation: fadeIn 0.4s;
+border-radius: 10px;
+background-color: rgb(43, 43, 43);
+color: white;
+ }
+ .select:hover {
+height: 35px;
+width: 800px;
+animation: fadeIn 0.4s;
+border-radius: 10px;
+background-color: rgb(218, 216, 216);
+color: rgb(0, 0, 0);
+ }
+ .input{
+ width: 600px;
+ height: 40px;
+ animation: fadeIn 0.7s;
+ transition: all 0.5s;
+ border-color: rgb(136, 136, 136);
+ color: white;
+ background-color: rgb(58, 58, 58);
+ border-radius: 10px;
+ }
+ .input:hover{
+ width: 600px;
+ height: 40px;
+ transition: all 0.5s;
+ border-color: rgb(138, 138, 138);
+ color: rgb(0, 0, 0);
+ background-color: rgb(255, 255, 255);
+ border-radius: 10px;
+ }
+ .input2{
+ width: 600px;
+ height: 40px;
+ transition: 0.3s;
+ animation: fadeIn 0.7s;
+ border-color: rgb(136, 136, 136);
+ color: rgb(150, 150, 150);
+ background-color: rgb(58, 58, 58);
+ }
+ .input2:hover{
+ width: 600px;
+ height: 40px;
+ transition: 0.3s;
+ animation: fadeIn 0.4s;
+ border-color: rgb(255, 255, 255);
+ color: rgb(255, 255, 255);
+ background-color: rgb(58, 58, 58);
+ }
+ .input2.regex{
+ width: 600px;
+ height: 40px;
+ transition: all 0.5s;
+ animation: fadeIn 0.4s;
+ border-color: rgb(136, 136, 136);
+ color: white;
+ background-color: rgb(58, 58, 58);
+ }
+ .vote.close{
+  width:50px;
+  animation: fadeIn 0.4s;
+  color: red; 
+  margin-left: 600px;
+  font-style: Arial;
+ }
  .dropdown2 {
   float: left;
   overflow: hidden;
