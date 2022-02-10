@@ -38,7 +38,7 @@ jobs:
             echo "  🔴 無變化"
           else
             echo "  🟢 資料更新"
-            git config --global user.email "a102009102009@gmail.com.com"
+            git config --global user.email "a102009102009@gmail.com"
             git config --global user.name "a3510377"
             git add .
             git commit -m "更新資料"
