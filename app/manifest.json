@@ -1,0 +1,37 @@
+{
+  "name": "{My-IT}程式討論區-blog",
+  "short_name": "{My-IT}blog",
+  "description": "myit-blog",
+  "icons": [
+    {
+      "src": "20220311_161042_0000-modified.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "20220311_161042_0000-modified.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "20220311_161042_0000-modified.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "20220311_161615_0000-modified.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "png_20220311_161757_0000-modified.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "lang": "zh-HK",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "black",
+  "theme_color": "#007BFF"
+}
