@@ -1,0 +1,174 @@
+
+<!DOCTYPE html>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="keywords" content="myit,discord,myit group,myit discord,myit blog">
+  <meta charset="UTF-8">
+  <meta name="google-site-verification" content="83LPbk82eG6tQKFl9DpDoI6UuRrbyKOPEnB5xL29R4Q" />
+  <link rel="icon"
+    href="https://media.discordapp.net/attachments/924845584521789513/936584105292877824/myItMyimg-modified.png">
+  <meta content="{My-IT}程式討論區" property="og:title" />
+  <meta content="myit blog" property="og:description" />
+  <meta content="https://myitblog.tk/" property="og:url" />
+  <meta content="styles/img/myItMyimg-modified.png" property="og:image" />
+  <meta content="#3c3c3c" data-react-helmet="true" name="theme-color" />
+  <meta property="og:site_name" content="myitblog.tk" />
+  <meta property="og:title" content="{My-IT}程式討論區" />
+  <meta property="og:url" content="https://myitblog.tk/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:description" content="myit blog" />
+  <meta itemprop="name" content="myit blog" />
+  <meta itemprop="url" content="https://myitblog.tk/" />
+  <meta itemprop="description" content="myit blog" />
+  <meta name="description" content="myit blog">
+  <meta name="title" content="{My-IT}程式討論區">
+  <link rel="manifest" href="app/manifest.json" />
+  <title>{My-IT}程式討論區</title>
+
+
+<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+
+<link rel='stylesheet' id='bootstrap-css' href="styles/css/bootstrap.min.css?ver=3.3.1" type='text/css' media='all' />
+<link rel='stylesheet' id='aza-style-css' href="styles/css/style.css?ver=5.4.8" type='text/css' media='all' />
+
+
+
+
+<link rel='stylesheet' id='aza-google-fonts-css' href='https://fonts.googleapis.com/css?family=Montserrat%3A400%2C700%7CRoboto%3A300%2C400%2C700%7CHomemade+Apple&#038;ver=5.4.8' type='text/css' media='all' />
+
+<script type='text/javascript' src="styles/js/jquery.js?ver=1.12.4-wp"></script>
+<script type='text/javascript' src="styles/js/jquery-migrate.min.js?ver=1.4.1"></script>
+
+</head>
+
+
+<header itemscope itemtype="http://schema.org/WPHeader" id="masthead" role="banner" class="header site-header">
+<div class="overlay-layer-nav">
+<div class="navbar ">
+<div class="container">
+<div class="navbar-header">
+
+<button title='Toggle Menu' aria-controls='menu-main-menu' aria-expanded='false' type="button" class="navbar-toggle menu-toggle" id="menu-toggle" data-toggle="collapse" data-target="#menu-primary">
+<span class="screen-reader-text">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<div class="title-tagline-wrapper"><div class="header-logo-wrap vert-align"><h1 id="site-title" class="site-title"><a href="https://myitblog.tk" rel="home"{My-IT}程式討論區</a></h1><p id="site-description" class="site-description">{My-IT}程式討論區</p></div></div>
+</div>
+
+
+<div itemscope itemtype="http://schema.org/SiteNavigationElement" aria-label="Primary Menu" id="menu-primary" class="navbar-collapse collapse">
+<nav id="site-navigation" class="main-navigation" role="navigation">
+<div class="menu-%e5%ad%b8%e7%94%9f%e5%a6%b9%e7%b3%bb%e5%88%97-container"><ul id="menu-%e5%ad%b8%e7%94%9f%e5%a6%b9%e7%b3%bb%e5%88%97" class="nav navbar-nav"><li id="menu-item-176" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-176 dropdown"><a title="links" href="#" data-toggle="dropdown" class="dropdown-toggle" aria-haspopup="true">鏈接<span class="caret"></span></a>
+<ul role="menu" class=" dropdown-menu">
+<li id="menu-item-191" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-191"><a title="Discord" href="https://discord.gg/myit">Discord</a></li>
+  <li id="menu-item-191" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-191"><a title="Github" href="https://github.com/hello1234316/myit">Github源代碼</a></li>
+</ul>
+</li>
+</ul></div> </nav>
+</div>
+</div>
+
+</div>
+
+</div>
+	
+	
+
+
+
+<div class="blog-content-wrapper">
+<div class="container blog-content">
+<div class="row">
+<div id="primary" class="content-area col-md-9">
+<main id="main" class="site-main" role="main">
+<article id="post-13" class="post-13 page type-page status-publish hentry">
+<header class="entry-header">
+<h1 class="entry-title">{My-IT}程式討論區</h1> </header>
+<div class="entry-content">
+<h3 class="has-text-align-center"></h3>
+<section class="features">
+      <div class="bulletin">
+        <h1>群組公告</h1>
+      </div>
+    </section>
+<h3>&nbsp;</h3>
+<footer class="entry-footer">
+</footer>
+</article>
+</main>
+</div>
+
+
+<footer id="colophon" class="site-footer" role="contentinfo">
+<div class="container">
+<div class="row">
+<div class="col-lg-12 text-center">
+<div class="menu"><ul>
+</div>
+</div>
+<div class="row footer-widgets">
+<div class="col-md-4">
+</div>
+<div class="col-md-4">
+<div> <div class="textwidget"><p>{My-IT}程式討論區 © 2021-2022. All Rights Reserved</p>
+</div>
+</div> </div>
+<div class="col-md-4">
+</div>
+</div>
+</footer>
+
+</div>
+
+</div>
+</div>
+
+
+  <div class="air"></div>
+  <script type="text/javascript">
+    (function () {
+      window["__CF$cv$params"] = {
+        r: "6bbae6f8c8d16e2d",
+        m: "W8rYdECUAecIwjGoy2Rwegi4mzk1JSGHRAR9zZUzdeE-1639185750-0-AbG5fmXmredv+fQcGMnGPOJ9/oSxtJFGNYbdEwzX/WPS3dLqHVWTKV8J1CVPhL5fYbdh2laL3VJq8nkvYNp2AjJEP48G/p8JeHAbPl93XKBhi3XB+xd12j3z4NkHIOD5ag==",
+        s: [0xa60f617173, 0x4bb584cc56],
+        u: "/cdn-cgi/challenge-platform/h/b"
+      }
+    })();
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/@widgetbot/crate@3" async defer>
+    new Crate({
+      server: "808945802100736050",
+      channel: "887690164657340466",
+      glyph: [
+        "https://media.discordapp.net/attachments/924845584521789513/936584105292877824/myItMyimg-modified.png",
+        "100%"
+      ]
+    })
+  </script>
+  <script src="styles/js/index.js"></script>
+  <script src="styles/js/bulletin.js"></script>
+
+  
+<script type='text/javascript' src="styles/js/bootstrap.min.js?ver=3.3.5"></script>
+
+<script type='text/javascript' src="styles/js/script.js?ver=1.0.0"></script>
+
+<script src="app/app.js"></script>
+
+<script src="app/main.js"></script>
+</body>
+</html>
