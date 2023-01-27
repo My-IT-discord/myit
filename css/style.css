@@ -37,9 +37,13 @@ h3{
 }
 #title{
 	color: #fff;
+	padding: 50px;
+
 }
 #sub-title{
 	color: #fff;
+	padding: -50px;
+	margin: -90px 0 0 0;
 }
 #intro .jumbotron{
 	background: url();
