@@ -1,24 +1,62 @@
-h1,h2,h3,h4,h5,h6{
+body{
+	background: radial-gradient(circle,#24246e,#06051f);
+    height: 100vh;
+}
+h1,h2,h4,h5,h6{
 	font-family: 'Noto Sans TC', sans-serif;
+	color: #ffcbcd;
 }
 p,a,span,li,label{
 	font-family: 'Open Sans', sans-serif;
+	color: #f4f4f4;
 }
 img{
 	max-width:100%;
 }
+
+
 nav li{
 	    margin: 0 13px;
 }
+.nav-item{
+	padding: auto;
+	margin: auto;
+	text-align: center;
+}
+.nav-link{
+	color: #fff;
+    font-size: 16px;
+}
+#links{
+	color: #fff;
+}
+
+
+h3{
+	color: #fff;
+}
+#title{
+	color: #fff;
+}
+#sub-title{
+	color: #fff;
+}
 #intro .jumbotron{
-	background: url('../pictures/banner_dark.png');
+	background: url();
 	background-size: cover;
     background-repeat: no-repeat;
     background-position: 50%;
     height: 70vh;
     margin-bottom: 0px;
 }
-
+#intro{
+	padding: auto;
+	margin: auto;
+	text-align: center;
+}
+#intro .jumbotron.jumbotron2{
+	height: 400px;
+}
 #intro .jumbotron .container{
 	position:relative;
     top: 50%;
@@ -28,14 +66,14 @@ nav li{
 	margin-top: 20px;
 }
 .btn{
-    background-color: #964B00;
+    background-color: blue;
     padding: 7px 28px;
     border-radius: 20px;
     border: none;
 }
 .btn:hover{
 	opacity:0.8;
-	background-color: #964B00!important;
+	background-color: blueviolet;
 }
         
 #second{
@@ -50,20 +88,21 @@ nav li{
     width: 108px;
 }
 #second h5{
+	color: #ffcbcd;
 	margin-top: 22px;
     font-size: 16px;
 }
+#second > .container{
+	background-color: #252426;
+}
+
 
 h1.display-4{
 	font-size: 50px;
 	font-weight: bold;
 	color: white;
 }
-p{
-	font-size: 16px;
-    line-height: 26px;
-    color: #707070;
-}
+
 p.lead{
 	color: white;
 	line-height: 31px;
@@ -109,112 +148,11 @@ footer ul{
 	float: left;
     margin-right: 46px;
 }
-#intro .jumbotron.jumbotron2{
-	height: 400px;
-}
 
-.thetag{
-	color: #f05f5c;
-    font-size: 16px;
-    border: 1px solid #f05f5c;
-    padding: 10px 18px;
-    border-radius: 20px;
-    display: inline-block;
-    margin-left: 7px;
-}
-
-.apply{
-	background-color: #f9f9f9;
-	padding: 44px;
-}
-.apply .btn{
-	font-size: 16px;
-    margin-top: 31px;
-    width: 100%;
-}
-.applybelow{
-	margin-top:80px;
-	text-align: center;
-}
-.btn2{
-    color: #707070;
-    border: 1px solid #707070;
-    padding: 10px 24px;
-    border-radius: 20px;
-    margin-top: 3px;
-    display: inline-block;
-}
-.btn2:hover{
-	text-decoration: none;
-	opacity: 0.8;
-	color: #707070;
-}
-#intro .contact{
-	height: auto;
-    padding: 0px;
-}
-#intro .contact .col-md-4{
-	height: 400px;
-    background: rgba(0,0,0,0.5);
-    padding: 66px;
-    text-align: center;
-}
-#intro .contact .col-md-4 h1{
-	color:white;
-}
-#intro .contact .col-md-4 p{
-	color:white;
-}
-#intro .contact .col-md-4 hr {
-    color: white;
-    border-top: 2px solid #f05f5c;
-    width: 87px;
-    margin-top: 24px;
-    margin-bottom: 26px;
-}
-.cinner{
-	position:relative;
-    top: 50%;
-    transform: translate(0, -50%);
-}
-#contactcontent{
-	padding: 80px 0px;
-}
-#contactcontent h3{
-	margin-bottom: 40px;
-}
-#contactcontent a{
-	color:#f05f5c;
-}
-#contactcontent a.btn{
-	color:white;
-}
-#contactcontent textarea{
-	height:200px;
-	margin-bottom: 10px;
-}
-#contactcontent i{
-	display:inline-block;
-	margin-right: 4px;
-}
-@media only screen and (max-width: 768px) {
-	#second h5 {
-	    margin-bottom: 50px;
-	}
-	#latest .col-md-4{
-		margin-bottom: 60px;
-	}
-	footer h4 {
-	    font-size: 17px;
-	    margin-top: 30px;
-	    margin-bottom: 18px;
-	}
-}
 
 /*bots*/
-#bots {
-	background: rgb(248, 248, 248);
-	padding: 80px 0px;
+#bot-name{
+	color: #f4f4f4;
 }
 #bots .upper{
 	position:relative;
@@ -279,5 +217,24 @@ footer ul{
 	background:none!important;
 	color:black;
 }
+span{
+	color: #ffcbcd;
+}
 /*bots*/
 
+
+ /*mobile*/
+  @media only screen and (max-width: 768px) {
+	#second h5 {
+	    margin-bottom: 50px;
+	}
+	#latest .col-md-4{
+		margin-bottom: 60px;
+	}
+	footer h4 {
+	    font-size: 17px;
+	    margin-top: 30px;
+	    margin-bottom: 18px;
+	}
+}
+/*mobile ends*/
