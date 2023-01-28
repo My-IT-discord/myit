@@ -10,6 +10,12 @@ p,a,span,li,label{
 	font-family: 'Open Sans', sans-serif;
 	color: #f4f4f4;
 }
+::selection{
+	color: cyan;
+}
+::-moz-selection{
+	color: cyan;
+}
 img{
 	max-width:100%;
 }
