@@ -3,15 +3,15 @@ body{
     height: 100vh;
 }
 @font-face{
-    font-family: 王漢宗特圓體繁;
-    src: url(css\fonts\王漢宗特圓體繁.ttf);
+    font-family: 王漢宗特黑體繁;
+    src: url(css\fonts\王漢宗特黑體繁.王漢宗特黑體繁.ttf);
 }
 @font-face{
     font-family: 王漢宗中仿宋繁;
     src: url(css\fonts\王漢宗中仿宋繁.ttf);
 }
 h1,h2,h4,h5,h6{
-    font-family: 王漢宗特圓體繁;
+    font-family: 王漢宗特黑體繁;
     color: white;
 }
 p,a,span,li,label{
