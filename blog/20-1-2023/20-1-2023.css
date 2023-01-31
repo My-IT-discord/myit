@@ -2,12 +2,20 @@ body{
 	background: radial-gradient(circle,#24246e,#06051f);
     height: 100vh;
 }
+@font-face{
+    font-family: 王漢宗特圓體繁;
+    src: url(王漢宗特圓體繁.ttf);
+}
+@font-face{
+	font-family: 王漢宗中仿宋繁;
+	src: url(王漢宗中仿宋繁.ttf);
+}
 h1,h2,h4,h5,h6{
-	font-family: 'Noto Sans TC', sans-serif;
-	color: #ffcbcd;
+    font-family: 王漢宗特圓體繁;
+    color: white;
 }
 p,a,span,li,label{
-	font-family: 'Open Sans', sans-serif;
+	font-family: 王漢宗中仿宋繁;
 	color: #f4f4f4;
 }
 a{
