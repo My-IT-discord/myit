@@ -4,18 +4,18 @@ body{
 }
 @font-face{
     font-family: 王漢宗特黑體繁;
-    src: url(王漢宗特黑體繁.ttf);
+    src: url(https://myitblog.tk/css/fonts/%E7%8E%8B%E6%BC%A2%E5%AE%97%E7%89%B9%E9%BB%91%E9%AB%94%E7%B9%81.ttf);
 }
 @font-face{
-	font-family: 王漢宗特黑體繁;
-	src: url(王漢宗特黑體繁.ttf);
+    font-family: 王漢宗中仿宋繁;
+    src: url(https://myitblog.tk/css/fonts/%E7%8E%8B%E6%BC%A2%E5%AE%97%E4%B8%AD%E4%BB%BF%E5%AE%8B%E7%B9%81.ttf);
 }
 h1,h2,h4,h5,h6{
     font-family: 王漢宗特黑體繁;
     color: white;
 }
 p,a,span,li,label{
-	font-family: 王漢宗特黑體繁;
+	font-family: 王漢宗中仿宋繁;
 	color: #f4f4f4;
 }
 a{
