@@ -31,7 +31,23 @@ img{
 	max-width:100%;
 }
 
-
+nav li:after{
+	content: '';
+	display: block;
+	  border-bottom: 2px solid cyan;
+	  transform: scaleX(0);
+	  transition: .2s ease-in-out;
+}
+nav li:hover:after{
+	   transform: scaleX(1);
+}
+.nav-link{
+	  color: #fff;
+    font-size: 16px;
+    display: flex;
+  justify-content: center;
+  text-align: center;
+}
 nav li{
 	    margin: 0 13px;
 }
