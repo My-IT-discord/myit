@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta name="keywords" content="myit,discord,myit group,myit discord,myit blog">
+		<meta name="google-site-verification" content="83LPbk82eG6tQKFl9DpDoI6UuRrbyKOPEnB5xL29R4Q" />
+		<link rel="icon" href="https://media.discordapp.net/attachments/924845584521789513/936584105292877824/myItMyimg-modified.png">
+		<meta content="{MyIT}-部落格" property="og:title" />
+		<meta content="OSI之延伸文章 - L2與L3的交換器(Switch)差異" property="og:description" />
+		<meta content="https://myitblog.tk/blog/2" property="og:url" />
+		<meta content="styles/img/myItMyimg-modified.png" property="og:image" />
+		<meta content="#3c3c3c" data-react-helmet="true" name="theme-color" />
+		<meta property="og:title" content="{MyIT}-部落格" />
+		<meta property="og:url" content="OSI之延伸文章 - L2與L3的交換器(Switch)差異" />
+		<meta property="og:type" content="website" />
+		<meta property="og:description" content="myit blog" />
+		<meta itemprop="name" content="{MyIT}-部落格" />
+		<meta itemprop="url" content="https://myitblog.tk/blog/16-6-2022/16-6-2022.html" />
+		<meta itemprop="description" content="OSI之延伸文章 - L2與L3的交換器(Switch)差異" />
+		<meta name="description" content="OSI之延伸文章 - L2與L3的交換器(Switch)差異">
+		<meta name="title" content="{My-IT}程式討論區">
+		<title>{MyIT}-部落格</title>
+        <link rel="stylesheet" href="16-6-2022.css">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+		<link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC|Open+Sans&display=swap" rel="stylesheet">
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+		<script src="https://kit.fontawesome.com/68f8681dba.js" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+	</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+       <a class="navbar-brand" href="https://myitblog.tk/index.html"><img src='MyIT.png' width='155'></a>
+   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+     <span class="navbar-toggler-icon"></span>
+   </button>
+   <div class="collapse navbar-collapse" id="navbarSupportedContent">
+     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+       <li class="nav-item">
+         <a class="nav-link" id="links" aria-current="page" href="https://myitblog.tk/index">主頁</a>
+       </li>
+       <li class="nav-item">
+         <a class="nav-link" id="links" href="https://discord.gg/myit">加入Discord</a>
+       </li>
+       <li class="nav-item">
+         <a class="nav-link" id="links" href="https://github.com/hello1234316/myit">Github原代碼</a>
+       </li>
+       <li class="nav-item">
+         <a class="nav-link" id="links" href="https://myitblog.tk/aboutus">關於我們</a>
+       </li>
+     </ul>
+   </div>
+ </div>
+</nav>
+
+    <section class="dark">
+        <div class="container py-4">
+            <h1 class="h1 text-center" id="pageHeaderTitle">OSI之延伸文章 - L2與L3的交換器(Switch)差異</h1>
+    
+            <article class="blog dark blue">
+                <div class="blog__text">
+                    <h1 class="blog__title blue">你知道什麼是OSI 7層嗎？</h1>
+                    <div class="blog__subtitle small">
+                        <time datetime="2023-01-20 20:05">
+                            <i class="fas fa-calendar-alt mr-2"></i>  — 14/06/2022 15:00<br>
+                            作者 — YYJ
+                        </time>
+                    </div>
+                    <div class="blog__bar"></div>
+
+                    <div class="blog__preview-txt">
+                      <p>你知道交換器(Switch)有分L2和L3兩種類型的嗎？不過在了解這兩者的差異之前，相信有一些人不熟交換器是什麼。交換器是網路設備之一，與路由器外觀不同之處在於，他通常具備更多的插孔(Port)，這代表有更多設備可以的網路線可連入至交換器。交換器的基本功能就是接收資料並轉發到指定的目標，當網路插孔不足時，你也會需要這種設備。</p><br>
+                      <p><strong>L2交換器</strong><br>
+                      使用MAC位置轉發資料，假設分了5個VLAN，不過每個VLAN無法有獨立的IP，僅能做一組當做交換器IP管理使用，較為簡單。<br>
+                      <strong>L3交換器</strong><br>
+                      價格較貴，具有L2的所有功能，增加了VLAN路由表，這代表不在是用MAC位置轉發資料，效能提升了許多，因此能對VLAN做更好的管理，不會只是單純轉發資料，通常都會具備流量限制的功能，來防止大量惡意封包導致網路設備無法負荷，進而癱瘓整個網路。另外L3交換器還可以與不同網段傳輸資料。</p><br>
+                      <p>總之L2價格便宜適用於較單純的使用者，如果是企業級別的那就建議使用L3交換器，又更豐富的網路管理/管制功能。</p><br>
+                      <p>文章主題：網路概論</p>
+                        
+                        <br><br><a rel="license" href="http://creativecommons.org/licenses/by-nc/2.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/2.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/2.0/">Creative Commons Attribution-NonCommercial 2.0 Generic License</a>.
+                    </div>
+                </div>
+            </article>
+
+            
+            
+          
+           
+        </div>
+    </section>
+
+
+            
+            
+          
+           
+        </div>
+    </section>
+
+
+    <footer> 
+	        
+        <div class="container">
+            <div class='row'>
+                  <div class='col-md-4 text-left'>
+                      <img src='MyIT.png' width='100'>
+                      <p>{My-IT}程式討論區</p>
+                      <p>{My-IT}▸ 一個程式討論群組</p>
+                      <p>果然是我熟悉的myit 還是那麼的不營養</p>
+                      <p>&copy {My-IT}程式討論區 2022-2023</p>
+                  </div>
+                        <div class='col-md-4 text-right'>
+                        <h4>連結</h4>
+                        <ul>
+                          <li><a href='https://myitblog.tk/index.html'>主頁</a></li>
+                          <li><a href='https://discord.gg/myit'>加入Discord</a></li>
+                        </ul>
+                        <ul>
+                          <li><a href='https://github.com/hello1234316/myit'>Github原代碼</a></li>
+                          <li><a href='https://myitblog.tk/aboutus'>關於我們</a></li>
+                        </ul>						  
+                  </div>
+            </div>
+        </div>	        
+    
+    </footer>
+    
+
+<script src="https://myitblog.tk/js/animation.js"></script>
+</body>
+
+</html>
