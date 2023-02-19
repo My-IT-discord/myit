@@ -1,5 +1,8 @@
-# myit
+#重要通知
+最新網站已使用React.js重寫
+可在 https://github.com/My-IT-discord/myit_react 查看
 
+# myit
 a blog website for my discord group : https://discord.gg/myit <br />
 https://hello1234316.github.io/myit/
 
